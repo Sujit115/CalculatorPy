@@ -8,4 +8,4 @@ operator = input()
 
 calc = Calculator.Calculator(leftOperand,rightOperand,operator)
 calc.calculate()
-print(calc.output)
+print(calc.getOutput())
